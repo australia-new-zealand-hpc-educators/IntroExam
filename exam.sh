@@ -29,6 +29,7 @@ questions() {
 	while IFS= read -r line
 	do
   	echo "$line"
+	echo
 	done < "$input"
 }
 
