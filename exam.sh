@@ -62,9 +62,11 @@ main() {
 	introduction
 	SECONDS=0
 	questions1
+	read -n1 -r -p "Press any key to finish section 1"
 	questions2
+	read -n1 -r -p "Press any key to finish section 2"
 	questions3
-	read -n1 -r -p "Press any key to finish"
+	read -n1 -r -p "Press any key to finish section 3"
 	clear
 	duration=$SECONDS
 	echo "$(($duration / 60)) minutes and $(($duration % 60)) seconds elapsed."
